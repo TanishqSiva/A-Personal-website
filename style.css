@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+h1 {
+    line-height: 2;
+    color: #19376D;
+    margin-top: 0px;
+   font-size: 5em;
+    font-family: 'Sacramento', cursive;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: aquamarine;
+    font-weight: bold;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: aquamarine;
+    font-weight: bold;
+}
+
+.top-container {
+    background-color: aquamarine;
+    position: relative;
+    padding-top: 100px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+.programmer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #19376D;
+}
+.checkout {
+
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.Code {
+width: 25%;
+float: left;
+margin-right: 30px;
+}
+.draw {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+    }
+.bottom-container {
+    background-color: aquamarine;
+}
+hr {
+    border-width: 1px;
+    border-style: none;
+ border-top-style: dotted;
+ border-color: #EA5455  ;
+ border-width: 5px;
+    width: 85px;
+}
+
+.buttonClass {
+    font-size:15px;
+    font-family: 'Montserrat', sans-serif;
+    width:140px;
+    height:50px;
+    border-width:10px;
+    color:#fff;
+    border-color:#599bb3;
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    text-shadow: 0px 1px 0px #3d768a;
+    background:linear-gradient(#599bb3, #408c99);
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(#408c99, #599bb3);
+    background-size: 100px;
+  }
+                
